@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manzana Verde</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/logo.small" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="main-container">
+    <nav>
+        <div class="nav-left">
+            <img src="./assets/manzana.png" alt="Logo Manzana Verde">
+        </div>
+        <div class="nav-right">
+            <ul>
+                <a href="">
+                    <li class="nav-right_inicio">INICIO</li>
+                </a>
+                <a href="">
+                    <li>MENÚ</li>
+                </a>
+                <a href="">
+                    <li>UBICACION</li>
+                </a>
+                <a href="">
+                    <li>DOMICILIO</li>
+                </a>
+                <a href="">
+                <button>PEDIR EN LÍNEA</button>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    
+    <section class="main-images">
+        <button class="main-images__first-button">VER NUESTRO MENÚ</button>
+        <button class="main-images__second-button">SOLICITCAR DOMICILIO</button>
+    </section>
+
+    <section class="fruit-salad">
+        <div class="fruit-salad__global-car">
+        <h1>Crea tu ensalada de frutas</h1>
+        <div class="fruit-salad__global-car-img">
+            <img src="./assets/carrito/man-pushing-a-shopping-cart.png" alt="">
+            <div class="fruit-salad__global-car-img-marker">
+                <span class="fruit-salad__global-car-img-marker-span">0</span>
+            </div>
+        </div>
+       
+        </div>
+        <div class="cards">
+            <div class="ice-cream">
+                <a href="#ice-scroll" >
+                    <button class="ice-cream__button">
+                        <span>HELADO</span>
+                        <img src="./assets/agregar-carrito.png" alt=""> 
+                    </button>
+                </a>
+            </div>
+            <div class="fruits">
+                <a href="#fruit-scroll">
+                    <button class="fruits__button">
+                        <span>FRUTAS</span>
+                        <img src="./assets/agregar-carrito.png" alt="">
+                    </button>
+                </a>
+            </div>
+            <div class="cream">
+                <a href="#cream-scroll">
+                    <button class="cream__button">
+                        <span>CREMA DE LECHE</span>
+                        <img src="./assets/agregar-carrito.png" alt="">
+                    </button>
+                </a>
+            </div>
+            
+            <div class="toppings">
+                <a href="#toppings-scroll">
+                    <button class="topping__button">
+                        <span>TOPPINGS</span>
+                        <img src="./assets/agregar-carrito.png" alt="">
+                    </button>
+                </a>
+            </div>
+            <div class="dressing">
+                <a href="#dressing-scroll">
+                    <button class="dressing__button">
+                        <span>ADEREZO</span>
+                        <img src="./assets/agregar-carrito.png" alt="">
+                    </button>
+                </a>
+            </div>
+            <div class="cheese">
+                <a href="#cheese-scroll">
+                    <button class="cheese__button">
+                        <span>QUESO</span>
+                        <img src="./assets/agregar-carrito.png" alt="">
+                    </button>
+                </a>
+            </div>
+            <div>
+                <h2></h2>
+            </div>
+        </div>
+        
+    </section>
+
+
+<!--    SECTION ICE -->
+
+
+    <section class="main-shopping__ice" id="ice-scroll">
+        
+        <section class="main-carrito-ice" >
+                <div class="main-carrito-ice__title-primary">
+                <h2>HELADOS</h2>
+                </div>
+                <div class="main-carrito-ice__title-secondary">
+                    <span>Cantidad</span>
+                    <span>Precio</span>
+                </div>
+                <div class="carrito-ice">
+                    <div class="carrito-section-ice">
+                        <div class="carrito-section-ice__left-1">
+                            <img src="./assets/helados/chocolate.jpg" alt="">
+                            <p>chocolate</p>
+                        </div>
+                        <div class="carrito-section-ice__left-2">
+                            <img class="anadir1-ice" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar1-ice" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-ice__right">
+                        <span class="cantidad1-ice">0</span>
+                        <span class="precio1-ice">0</span>
+                    </div>
+                </div>
+        
+        
+                <div class="carrito-ice">
+                    <div class="carrito-section-ice">
+                        <div class="carrito-section-ice__left-1">
+                            <img src="./assets/helados/vainilla.jpg" alt="">
+                            <p>Vainilla</p>
+                        </div>
+                        <div class="carrito-section-ice__left-2">
+                            <img class="anadir2-ice" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar2-ice" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-ice__right">
+                        <span class="cantidad2-ice">0</span>
+                        <span class="precio2-ice">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-ice">
+                    <div class="carrito-section-ice">
+                        <div class="carrito-section-ice__left-1">
+                            <img src="./assets/helados/fresa.jpg" alt="">
+                            <p>Fresa</p>
+                        </div>
+                        <div class="carrito-section-ice__left-2">
+                            <img class="anadir3-ice" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar3-ice" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-ice__right">
+                        <span class="cantidad3-ice">0</span>
+                        <span class="precio3-ice">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-ice">
+                    <div class="carrito-section-ice">
+                        <div class="carrito-section-ice__left-1">
+                            <img src="./assets/helados/maracuya.jpg" alt="">
+                            <p>Maracuya</p>
+                        </div>
+                        <div class="carrito-section-ice__left-2">
+                            <img class="anadir4-ice" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar4-ice" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-ice__right">
+                        <span class="cantidad4-ice">0</span>
+                        <span class="precio4-ice">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-ice">
+                    <div class="carrito-section-ice">
+                        <div class="carrito-section-ice__left-1">
+                            <img src="./assets/helados/mora.png" alt="">
+                            <p>Mora</p>
+                        </div>
+                        <div class="carrito-section-ice__left-2">
+                            <img class="anadir5-ice" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar5-ice" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-ice__right">
+                        <span class="cantidad5-ice">0</span>
+                        <span class="precio5-ice">0</span>
+                    </div>
+                </div>
+        
+                <section class="total-ice">
+                    <div>
+                        <span>TOTAL</span>
+                    </div>
+                    <div class="calculo-ice">
+                        <span class="total-unidad-ice">0</span>
+                        <span class="total-valor-ice">0</span>
+                    </div>
+                </section>
+    
+        </section>      
+    </section>
+    <div class="main-close-ice">
+        <img src="./assets/carrito/close.png" alt="">
+    </div>
+
+    <!--    SECTION FRUTAS -->
+
+ <section class="main-shopping__fruits" id="fruit-scroll">
+        
+    <section class="main-carrito-fruits">
+        <div class="main-carrito-fruits__title-primary">
+        <h2>FRUTAS</h2>
+        </div>
+        <div class="main-carrito-fruits__title-secondary">
+            <span>Cantidad</span>
+            <span>Precio</span>
+        </div>
+        <div class="carrito-fruits">
+            <div class="carrito-section-fruits">
+                <div class="carrito-section-fruits__left-1">
+                    <img src="./assets/frutas/banano.jpg" alt="">
+                    <p>Banano - 5g</p>
+                </div>
+                <div class="carrito-section-fruits__left-2">
+                    <img class="anadir1-fruits" src="./assets/carrito/anadir.png" alt="">
+                    <img class = "eliminar1-fruits" src="./assets/carrito/eliminar.png" alt="">
+                </div>
+            </div>
+            <div class="carrito-section-fruits__right">
+                <span class="cantidad1-fruits">0</span>
+                <span class="precio1-fruits">0</span>
+            </div>
+        </div>
+
+
+        <div class="carrito-fruits">
+            <div class="carrito-section-fruits">
+                <div class="carrito-section-fruits__left-1">
+                    <img src="./assets/frutas/papaya.jpg" alt="">
+                    <p>Papaya - 5g</p>
+                </div>
+                <div class="carrito-section-fruits__left-2">
+                    <img class="anadir2-fruits" src="./assets/carrito/anadir.png" alt="">
+                    <img class = "eliminar2-fruits" src="./assets/carrito/eliminar.png" alt="">
+                </div>
+            </div>
+            <div class="carrito-section-fruits__right">
+                <span class="cantidad2-fruits">0</span>
+                <span class="precio2-fruits">0</span>
+            </div>
+        </div>
+
+        <div class="carrito-fruits">
+            <div class="carrito-section-fruits">
+                <div class="carrito-section-fruits__left-1">
+                    <img src="./assets/frutas/sandia.jpg" alt="">
+                    <p>Sandia - 5g</p>
+                </div>
+                <div class="carrito-section-fruits__left-2">
+                    <img class="anadir3-fruits" src="./assets/carrito/anadir.png" alt="">
+                    <img class = "eliminar3-fruits" src="./assets/carrito/eliminar.png" alt="">
+                </div>
+            </div>
+            <div class="carrito-section-fruits__right">
+                <span class="cantidad3-fruits">0</span>
+                <span class="precio3-fruits">0</span>
+            </div>
+        </div>
+
+        <div class="carrito-fruits">
+            <div class="carrito-section-fruits">
+                <div class="carrito-section-fruits__left-1">
+                    <img src="./assets/frutas/mango.jpg" alt="">
+                    <p>Mango - 5g</p>
+                </div>
+                <div class="carrito-section-fruits__left-2">
+                    <img class="anadir4-fruits" src="./assets/carrito/anadir.png" alt="">
+                    <img class = "eliminar4-fruits" src="./assets/carrito/eliminar.png" alt="">
+                </div>
+            </div>
+            <div class="carrito-section-fruits__right">
+                <span class="cantidad4-fruits">0</span>
+                <span class="precio4-fruits">0</span>
+            </div>
+        </div>
+
+        <div class="carrito-fruits">
+            <div class="carrito-section-fruits">
+                <div class="carrito-section-fruits__left-1">
+                    <img src="./assets/frutas/fresa.jpeg" alt="">
+                    <p>Fresa - 5g</p>
+                </div>
+                <div class="carrito-section-fruits__left-2">
+                    <img class="anadir5-fruits" src="./assets/carrito/anadir.png" alt="">
+                    <img class = "eliminar5-fruits" src="./assets/carrito/eliminar.png" alt="">
+                </div>
+            </div>
+            <div class="carrito-section-fruits__right">
+                <span class="cantidad5-fruits">0</span>
+                <span class="precio5-fruits">0</span>
+            </div>
+        </div>
+
+        <section class="total-fruits">
+            <div>
+                <span>TOTAL</span>
+            </div>
+            <div class="calculo-fruits">
+                <span class="total-unidad-fruits">0</span>
+                <span class="total-valor-fruits">0</span>
+            </div>
+        </section>
+
+     </section>
+    </section> 
+    <div class="main-close-fruits">
+        <img src="./assets/carrito/close.png" alt="">
+    </div>
+
+    <!--    SECTION CREAM -->
+
+    <section class="main-shopping__cream" id="cream-scroll">
+        
+        <section class="main-carrito-cream">
+                <div class="main-carrito-cream__title-primary">
+                <h2>CREMA</h2>
+                </div>
+                <div class="main-carrito-cream__title-secondary">
+                    <span>Cantidad</span>
+                    <span>Precio</span>
+                </div>
+                <div class="carrito-cream">
+                    <div class="carrito-section-cream">
+                        <div class="carrito-section-cream__left-1">
+                            <img src="./assets/crema-de-leche/crema-de-leche.jpg" alt="">
+                            <p>Crema de leche</p>
+                        </div>
+                        <div class="carrito-section-cream__left-2">
+                            <img class="anadir1-cream" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar1-cream" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cream__right">
+                        <span class="cantidad1-cream">0</span>
+                        <span class="precio1-cream">0</span>
+                    </div>
+                </div>
+        
+        
+                <div class="carrito-cream">
+                    <div class="carrito-section-cream">
+                        <div class="carrito-section-cream__left-1">
+                            <img src="./assets/crema-de-leche/crema-de-leche-sin.azucar.jpg" alt="">
+                            <p>Crema de leche sin azucar</p>
+                        </div>
+                        <div class="carrito-section-cream__left-2">
+                            <img class="anadir2-cream" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar2-cream" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cream__right">
+                        <span class="cantidad2-cream">0</span>
+                        <span class="precio2-cream">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-cream">
+                    <div class="carrito-section-cream">
+                        <div class="carrito-section-cream__left-1">
+                            <img src="./assets/crema-de-leche/crema-de-leche-sin-lactosa.jpg" alt="">
+                            <p>Crema de leche sin lactosa</p>
+                        </div>
+                        <div class="carrito-section-cream__left-2">
+                            <img class="anadir3-cream" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar3-cream" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cream__right">
+                        <span class="cantidad3-cream">0</span>
+                        <span class="precio3-cream">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-cream">
+                    <div class="carrito-section-cream">
+                        <div class="carrito-section-cream__left-1">
+                            <img src="./assets/crema-de-leche/crema-chantilly.jpg" alt="">
+                            <p>Crema chantilly</p>
+                        </div>
+                        <div class="carrito-section-cream__left-2">
+                            <img class="anadir4-cream" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar4-cream" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cream__right">
+                        <span class="cantidad4-cream">0</span>
+                        <span class="precio4-cream">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-cream">
+                    <div class="carrito-section-cream">
+                        <div class="carrito-section-cream__left-1">
+                            <img src="./assets/crema-de-leche/suave-crema-chantilly.jpg" alt="">
+                            <p>Crema chantilly sin azucar</p>
+                        </div>
+                        <div class="carrito-section-cream__left-2">
+                            <img class="anadir5-cream" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar5-cream" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cream__right">
+                        <span class="cantidad5-cream">0</span>
+                        <span class="precio5-cream">0</span>
+                    </div>
+                </div>
+        
+                <section class="total-cream">
+                    <div>
+                        <span>TOTAL</span>
+                    </div>
+                    <div class="calculo-cream">
+                        <span class="total-unidad-cream">0</span>
+                        <span class="total-valor-cream">0</span>
+                    </div>
+                </section>
+    
+        </section>      
+    </section>
+    <div class="main-close-cream">
+        <img src="./assets/carrito/close.png" alt="">
+    </div>
+
+    <!--    SECTION TOPPINGS -->
+
+    <section class="main-shopping__topping" id="toppings-scroll">
+        
+        <section class="main-carrito-topping">
+                <div class="main-carrito-topping__title-primary">
+                <h2>TOPPINGS</h2>
+                </div>
+                <div class="main-carrito-topping__title-secondary">
+                    <span>Cantidad</span>
+                    <span>Precio</span>
+                </div>
+                <div class="carrito-topping">
+                    <div class="carrito-section-topping">
+                        <div class="carrito-section-topping__left-1">
+                            <img src="./assets/toppings/mini-galletas.jpg" alt="">
+                            <p>Mini galletas</p>
+                        </div>
+                        <div class="carrito-section-topping__left-2">
+                            <img class="anadir1-topping" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar1-topping" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-topping__right">
+                        <span class="cantidad1-topping">0</span>
+                        <span class="precio1-topping">0</span>
+                    </div>
+                </div>
+        
+        
+                <div class="carrito-topping">
+                    <div class="carrito-section-topping">
+                        <div class="carrito-section-topping__left-1">
+                            <img src="./assets/toppings/dulces.jpg" alt="">
+                            <p>Dulces</p>
+                        </div>
+                        <div class="carrito-section-topping__left-2">
+                            <img class="anadir2-topping" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar2-topping" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-topping__right">
+                        <span class="cantidad2-topping">0</span>
+                        <span class="precio2-topping">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-topping">
+                    <div class="carrito-section-topping">
+                        <div class="carrito-section-topping__left-1">
+                            <img src="./assets/toppings/gomas.jpg" alt="">
+                            <p>Gomas</p>
+                        </div>
+                        <div class="carrito-section-topping__left-2">
+                            <img class="anadir3-topping" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar3-topping" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-topping__right">
+                        <span class="cantidad3-topping">0</span>
+                        <span class="precio3-topping">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-topping">
+                    <div class="carrito-section-topping">
+                        <div class="carrito-section-topping__left-1">
+                            <img src="./assets/toppings/chispas.jpg" alt="">
+                            <p>Chipas</p>
+                        </div>
+                        <div class="carrito-section-topping__left-2">
+                            <img class="anadir4-topping" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar4-topping" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-topping__right">
+                        <span class="cantidad4-topping">0</span>
+                        <span class="precio4-topping">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-topping">
+                    <div class="carrito-section-topping">
+                        <div class="carrito-section-topping__left-1">
+                            <img src="./assets/toppings/mani.jpg" alt="">
+                            <p>Mani</p>
+                        </div>
+                        <div class="carrito-section-topping__left-2">
+                            <img class="anadir5-topping" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar5-topping" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-topping__right">
+                        <span class="cantidad5-topping">0</span>
+                        <span class="precio5-topping">0</span>
+                    </div>
+                </div>
+        
+                <section class="total-topping">
+                    <div>
+                        <span>TOTAL</span>
+                    </div>
+                    <div class="calculo-topping">
+                        <span class="total-unidad-topping">0</span>
+                        <span class="total-valor-topping">0</span>
+                    </div>
+                </section>
+    
+        </section>      
+    </section>
+    <div class="main-close-topping">
+        <img src="./assets/carrito/close.png" alt="">
+    </div>
+
+     <!--    SECTION DRESSING -->
+
+     <section class="main-shopping__dressing" id="dressing-scroll">
+        
+        <section class="main-carrito-dressing">
+                <div class="main-carrito-dressing__title-primary">
+                <h2>ADEREZO</h2>
+                </div>
+                <div class="main-carrito-dressing__title-secondary">
+                    <span>Cantidad</span>
+                    <span>Precio</span>
+                </div>
+                <div class="carrito-dressing">
+                    <div class="carrito-section-dressing">
+                        <div class="carrito-section-dressing__left-1">
+                            <img src="./assets/aderezo/mora.jpg" alt="">
+                            <p>Mora</p>
+                        </div>
+                        <div class="carrito-section-dressing__left-2">
+                            <img class="anadir1-dressing" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar1-dressing" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-dressing__right">
+                        <span class="cantidad1-dressing">0</span>
+                        <span class="precio1-dressing">0</span>
+                    </div>
+                </div>
+        
+        
+                <div class="carrito-dressing">
+                    <div class="carrito-section-dressing">
+                        <div class="carrito-section-dressing__left-1">
+                            <img src="./assets/aderezo/chocolate.jpg" alt="">
+                            <p>Chocolate</p>
+                        </div>
+                        <div class="carrito-section-dressing__left-2">
+                            <img class="anadir2-dressing" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar2-dressing" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-dressing__right">
+                        <span class="cantidad2-dressing">0</span>
+                        <span class="precio2-dressing">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-dressing">
+                    <div class="carrito-section-dressing">
+                        <div class="carrito-section-dressing__left-1">
+                            <img src="./assets/aderezo/fresa.jpg" alt="">
+                            <p>Fresa</p>
+                        </div>
+                        <div class="carrito-section-dressing__left-2">
+                            <img class="anadir3-dressing" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar3-dressing" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-dressing__right">
+                        <span class="cantidad3-dressing">0</span>
+                        <span class="precio3-dressing">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-dressing">
+                    <div class="carrito-section-dressing">
+                        <div class="carrito-section-dressing__left-1">
+                            <img src="./assets/aderezo/leche-condensada.jpg" alt="">
+                            <p>Leche condensada</p>
+                        </div>
+                        <div class="carrito-section-dressing__left-2">
+                            <img class="anadir4-dressing" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar4-dressing" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-dressing__right">
+                        <span class="cantidad4-dressing">0</span>
+                        <span class="precio4-dressing">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-dressing">
+                    <div class="carrito-section-dressing">
+                        <div class="carrito-section-dressing__left-1">
+                            <img src="./assets/aderezo/cereza.jpg" alt="">
+                            <p>Cereza</p>
+                        </div>
+                        <div class="carrito-section-dressing__left-2">
+                            <img class="anadir5-dressing" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar5-dressing" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-dressing__right">
+                        <span class="cantidad5-dressing">0</span>
+                        <span class="precio5-dressing">0</span>
+                    </div>
+                </div>
+        
+                <section class="total-dressing">
+                    <div>
+                        <span>TOTAL</span>
+                    </div>
+                    <div class="calculo-dressing">
+                        <span class="total-unidad-dressing">0</span>
+                        <span class="total-valor-dressing">0</span>
+                    </div>
+                </section>
+    
+        </section>      
+    </section>
+    <div class="main-close-dressing">
+        <img src="./assets/carrito/close.png" alt="">
+    </div>
+
+    <!--    SECTION CHEESE -->
+
+    <section class="main-shopping__cheese" id="cheese-scroll">
+        
+        <section class="main-carrito-cheese">
+                <div class="main-carrito-cheese__title-primary">
+                <h2>QUESO</h2>
+                </div>
+                <div class="main-carrito-cheese__title-secondary">
+                    <span>Cantidad</span>
+                    <span>Precio</span>
+                </div>
+                <div class="carrito-cheese">
+                    <div class="carrito-section-cheese">
+                        <div class="carrito-section-cheese__left-1">
+                            <img src="./assets/queso/mozzarella.jpg" alt="">
+                            <p>Doble crema</p>
+                        </div>
+                        <div class="carrito-section-cheese__left-2">
+                            <img class="anadir1-cheese" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar1-cheese" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cheese__right">
+                        <span class="cantidad1-cheese">0</span>
+                        <span class="precio1-cheese">0</span>
+                    </div>
+                </div>
+        
+        
+                <div class="carrito-cheese">
+                    <div class="carrito-section-cheese">
+                        <div class="carrito-section-cheese__left-1">
+                            <img src="./assets/queso/mozarlla.jpeg" alt="">
+                            <p>Mozzarella</p>
+                        </div>
+                        <div class="carrito-section-cheese__left-2">
+                            <img class="anadir2-cheese" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar2-cheese" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cheese__right">
+                        <span class="cantidad2-cheese">0</span>
+                        <span class="precio2-cheese">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-cheese">
+                    <div class="carrito-section-cheese">
+                        <div class="carrito-section-cheese__left-1">
+                            <img src="./assets/queso/queso-suizo.jpg" alt="">
+                            <p>Suizo</p>
+                        </div>
+                        <div class="carrito-section-cheese__left-2">
+                            <img class="anadir3-cheese" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar3-cheese" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cheese__right">
+                        <span class="cantidad3-cheese">0</span>
+                        <span class="precio3-cheese">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-cheese">
+                    <div class="carrito-section-cheese">
+                        <div class="carrito-section-cheese__left-1">
+                            <img src="./assets/queso/azul.jpg" alt="">
+                            <p>Azul</p>
+                        </div>
+                        <div class="carrito-section-cheese__left-2">
+                            <img class="anadir4-cheese" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar4-cheese" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cheese__right">
+                        <span class="cantidad4-cheese">0</span>
+                        <span class="precio4-cheese">0</span>
+                    </div>
+                </div>
+        
+                <div class="carrito-cheese">
+                    <div class="carrito-section-cheese">
+                        <div class="carrito-section-cheese__left-1">
+                            <img src="./assets/queso/gouda.jpg" alt="">
+                            <p>Gouda</p>
+                        </div>
+                        <div class="carrito-section-cheese__left-2">
+                            <img class="anadir5-cheese" src="./assets/carrito/anadir.png" alt="">
+                            <img class = "eliminar5-cheese" src="./assets/carrito/eliminar.png" alt="">
+                        </div>
+                    </div>
+                    <div class="carrito-section-cheese__right">
+                        <span class="cantidad5-cheese">0</span>
+                        <span class="precio5-cheese">0</span>
+                    </div>
+                </div>
+        
+                <section class="total-cheese">
+                    <div>
+                        <span>TOTAL</span>
+                    </div>
+                    <div class="calculo-cheese">
+                        <span class="total-unidad-cheese">0</span>
+                        <span class="total-valor-cheese">0</span>
+                    </div>
+                </section>
+    
+        </section>      
+    </section>
+    <div class="main-close-cheese">
+        <img src="./assets/carrito/close.png" alt="">
+    </div>
+
+    <section class="main-button">
+        <button class="main-button-kreator">CREAR ENSALADA</button>
+        <div class="tabla">
+            
+        </div>
+    </section>
+
+</main>
+    <script src="./shopping-car.js"></script>
+    <script src="./main-creaEnsalada.js"></script>
+</body>
+</html>
